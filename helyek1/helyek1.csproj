@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Goblin_info.webp" />
+    <None Remove="roka-gyik-1024x682.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Goblin_info.webp" />
+    <Resource Include="roka-gyik-1024x682.jpg" />
+  </ItemGroup>
+
+</Project>
